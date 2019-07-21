@@ -1,0 +1,98 @@
+.container {
+  max-width: 960px;
+  border-radius: 15px;
+}
+body{
+	background-image:url('../images/background2.png');
+	background-repeat: no-repeat;
+}
+
+.bgimg{
+	background-image:url('../images/background2.png');
+	background-repeat: no-repeat;
+}
+img{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+  height: 40%;
+  width: 40%;
+}
+.midlife{
+  background-color: rgb(194, 188, 186);
+
+}
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+	margin-left: 25%;
+    text-align: right;
+
+    left: auto;
+    padding:5px;
+    
+}
+/*
+.rightalign{
+	margin-left: 25%;
+	padding: 10px;
+}
+*/
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgb(204, 255, 51);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #234;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.fillform{
+  padding :18px;
+  border-radius: 15px;
+  background-color :rgb(92, 45, 25);
+}
+
+h1,h2,h3{
+	color : rgb(139, 69, 19);
+}
+p{
+	color : rgb(139, 69, 19);
+}
+a{
+	color: rgb(139, 69, 19);
+
+}
+label{
+	color:rgb(255, 255, 255);
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
