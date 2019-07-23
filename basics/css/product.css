@@ -1,13 +1,18 @@
 .container {
-  max-width: 960px;
+  max-width: 100%;
   border-radius: 15px;
 }
 body{
+	min-height: 75rem;
+	padding-top: 4.5rem;
 	background-image:url('../images/background2.png');
 	background-repeat: no-repeat;
 	background-position: top center; 
 }
-
+.navbar{
+	background-color:darkgreen;
+	  border-radius: 8px;
+}
 .bgimg{
 	background-image:url('../images/background2.png');
 	background-repeat: no-repeat;
@@ -69,6 +74,7 @@ img{
 
 h1,h2,h3{
 	color : rgb(139, 69, 19);
+	font-family: Copperplate;
 }
 p{
 	color : rgb(139, 69, 19);
